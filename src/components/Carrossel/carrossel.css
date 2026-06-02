@@ -103,14 +103,6 @@ header nav a{
     border-radius: 8px;
     box-shadow: 0 22px 60px rgba(0, 0, 0, 0.38);
 }
-.carousel .list .item img.palmilha-photo{
-    width: min(46%, 440px);
-    height: 58%;
-    object-fit: cover;
-    object-position: center;
-    background: #f8fafc;
-}
-
 .carousel .list .item .introduce{
     opacity: 0;
     pointer-events: none;

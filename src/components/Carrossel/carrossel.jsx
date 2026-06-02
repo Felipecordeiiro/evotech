@@ -7,7 +7,6 @@ import Robo4 from '../../assets/robo-4.png';
 import Robo5 from '../../assets/robo-5.png';
 import Robo6 from '../../assets/robo-7.png';
 import ProjetoSiraRobo from '../../assets/projeto-sira-robo.png';
-import PalmilhaInteligente from '../../assets/prototipo.png';
 
 const siraDetailBlocks = [
   {
@@ -104,60 +103,6 @@ const initialItemsData = [
       ['Status', 'Real'],
     ],
     detailBlocks: siraDetailBlocks,
-  },
-  {
-    id: 8,
-    imgSrc: PalmilhaInteligente,
-    imageClass: 'project-photo palmilha-photo',
-    alt: 'Protótipo de palmilha inteligente com sensores e dashboard de análise de marcha',
-    hideTitle: true,
-    compactTitle: true,
-    statusFlag: 'Em desenvolvimento',
-    topic: 'Palmilha Inteligente (IoT)',
-    des: 'Sistema vestível de aquisição de dados biomecânicos. Integra sensores inerciais (IMU) e matriz de força (FSR) com transmissão BLE de baixíssimo consumo para análise de marcha em tempo real.',
-    detailTitle: 'Palmilha Inteligente (IoT)',
-    detailDes: 'Solução vestível para capturar dados de marcha, pressão plantar e movimento em tempo real, conectando sensores embarcados a uma interface de análise biomecânica.',
-    specifications: [
-      ['Sensores', 'IMU + FSR'],
-      ['Conexão', 'BLE'],
-      ['Uso', 'Marcha'],
-      ['Energia', 'Baixo consumo'],
-    ],
-    detailBlocks: [
-      {
-        title: 'Como funciona',
-        items: [
-          'Sensores FSR registram distribuição de força e pressão plantar.',
-          'A IMU captura aceleração, orientação e padrões de movimento.',
-          'Os dados são transmitidos via BLE para análise em tempo real.',
-          'A interface exibe métricas como cadência, contato e simetria.',
-        ],
-      },
-      {
-        title: 'Diferenciais',
-        items: [
-          'Dispositivo vestível discreto para coleta contínua.',
-          'Integra leitura de força e movimento no mesmo sistema.',
-          'Arquitetura de baixíssimo consumo para uso prolongado.',
-          'Base pronta para dashboards, relatórios e acompanhamento remoto.',
-        ],
-      },
-      {
-        title: 'Impactos industriais',
-        items: [
-          'Apoia validação de produtos, ergonomia e saúde ocupacional.',
-          'Reduz dependência de laboratórios fixos para medições iniciais.',
-          'Facilita monitoramento de performance, fadiga e assimetria.',
-        ],
-      },
-      {
-        title: 'Aplicação',
-        items: [
-          'Análise de marcha, reabilitação, esporte e pesquisa biomecânica.',
-          'Monitoramento em tempo real para clínicas, equipes técnicas e P&D.',
-        ],
-      },
-    ],
   },
   {
     id: 3,
