@@ -21,7 +21,7 @@ O build final fica na pasta `dist`.
 
 Este projeto já inclui o workflow em `.github/workflows/deploy.yml`.
 
-1. Faça push para o repositório `IsaacDEV10/EvoTech` na branch `main`.
+1. Faça push para o repositório `Felipecordeiiro/evotech` na branch `main`.
 2. No GitHub, abra `Settings` > `Pages`.
 3. Em `Build and deployment`, escolha `GitHub Actions` como source.
 4. Aguarde o workflow `Deploy to GitHub Pages` terminar.
@@ -29,5 +29,5 @@ Este projeto já inclui o workflow em `.github/workflows/deploy.yml`.
 Depois do deploy, o site fica disponível em:
 
 ```text
-https://IsaacDEV10.github.io/EvoTech/
+https://Felipecordeiiro.github.io/evotech/
 ```
