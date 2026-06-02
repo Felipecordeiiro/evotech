@@ -14,7 +14,7 @@ const Hero = () => {
                 </p>
                 <div className="hero-actions" aria-label="Ações principais">
                     <a className="hero-cta hero-cta-primary" href="#projetos">Ver projetos</a>
-                    <a className="hero-cta hero-cta-secondary" href="#contact">Falar com a EvoTech</a>
+                    <a className="hero-cta hero-cta-secondary" href="https://wa.me/5585991317493" target="_blank" rel="noreferrer">Falar com a EvoTech</a>
                 </div>
             </div>
 

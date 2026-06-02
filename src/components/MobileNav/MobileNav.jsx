@@ -12,17 +12,17 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <a className='menu-item' href="#home">Home</a>
           </li>
           <li>
-            <a className='menu-item' href="#skills">Habilidades</a>
+            <a className='menu-item' href="#sobre">Sobre</a>
           </li>
           <li>
             <a className='menu-item' href="#projetos">Projetos</a>
           </li>
           <li>
-            <a className='menu-item' href="#contact">Sobre</a>
+            <a className='menu-item' href="#missao">Missão</a>
           </li>
-          <button className='contact-btn' onClick={() => {}}>
-          <a href="https://wa.me/5585994506690" target='blank'>Contato</a>
-          </button>
+          <li>
+            <a className='contact-btn' href="https://wa.me/5585991317493" target="_blank" rel="noreferrer">Contato</a>
+          </li>
         </ul>
       </div>
     </div>
