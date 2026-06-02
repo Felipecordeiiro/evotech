@@ -15,7 +15,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <a className='menu-item' href="#skills">Habilidades</a>
           </li>
           <li>
-            <a className='menu-item' href="#work">Projetos</a>
+            <a className='menu-item' href="#projetos">Projetos</a>
           </li>
           <li>
             <a className='menu-item' href="#contact">Sobre</a>
