@@ -25,3 +25,6 @@ dist-ssr
 *.sw?
 
 .playwright-mcp/
+
+# Local project drafts not ready for publication
+*.local.js
